@@ -11,8 +11,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'GGASBot')
-API_ID = int(environ.get('API_ID', '14819915'))
-API_HASH = environ.get('API_HASH', '7b25c3d6cb1dcfd53d0fd2bcd0bac4ff')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
